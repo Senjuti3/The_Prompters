@@ -1,0 +1,40 @@
+========================================
+INSTALL OPENCV-PYTHON MANUALLY
+========================================
+
+Almost everything is ready! You just need to install opencv-python.
+
+OPTION 1: Run PowerShell as Administrator
+------------------------------------------
+1. Right-click on PowerShell
+2. Select "Run as Administrator"
+3. Navigate to this folder:
+   cd "D:\The Prompters"
+4. Run:
+   pip install opencv-python
+
+OPTION 2: Use User Installation (No Admin needed)
+--------------------------------------------------
+1. Open PowerShell (regular, not admin)
+2. Navigate to this folder:
+   cd "D:\The Prompters"
+3. Run:
+   pip install --user opencv-python
+
+OPTION 3: Use Anaconda Prompt
+------------------------------
+1. Open Anaconda Prompt
+2. Navigate to this folder:
+   cd "D:\The Prompters"
+3. Run:
+   conda install -c conda-forge opencv
+
+After installation, run:
+   python test_installation.py
+
+This will verify everything is installed correctly.
+
+Then you can run:
+   python evaluation_software.py
+
+========================================

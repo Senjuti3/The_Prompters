@@ -1,0 +1,18 @@
+{
+    "section1_range": [1, 200],
+    "section2_range": [201, 400],
+    "reference_images": {
+        "question1": "image1.jpeg",
+        "question2": "image2.jpeg",
+        "question3": "image3.jpeg",
+        "question4": "image4.jpeg",
+        "question5": "image5.jpeg",
+        "question6": "image6.jpeg",
+        "question7": "image7.jpeg",
+        "question8": "image8.jpeg",
+        "question9": "image9.jpeg",
+        "question10": "image10.jpeg"
+    },
+    "team_number_column": "Team Number",
+    "image_link_column": "Upload Imange 1"
+}
