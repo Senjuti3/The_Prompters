@@ -1,0 +1,47 @@
+========================================
+READY TO RUN!
+========================================
+
+All packages are installed and working!
+
+HOW TO RUN:
+-----------
+
+1. Prepare your files:
+   - Place reference images: image1.jpg, image2.jpg, ..., image10.jpg
+   - Have your 10 Excel files from Google Forms ready
+
+2. Run the software:
+   
+   Open PowerShell in this folder and type:
+   
+   python evaluation_software.py
+   
+   OR double-click: run_evaluation.bat
+
+3. Follow the prompts:
+   - Enter section number (1 or 2)
+   - Provide path to each Excel file when asked
+   - Press Enter for default output filename
+
+EXAMPLE:
+--------
+python evaluation_software.py
+
+Then:
+Section number: 1
+Question 1 Excel file path: question1.xlsx
+Question 2 Excel file path: question2.xlsx
+... (continue for all 10 questions)
+Output file name: [Press Enter for default]
+
+OUTPUT:
+-------
+Results saved as: results_section1.xlsx
+
+Contains:
+- Team_Number (sorted 1-200 or 201-400)
+- Q1_Score, Q2_Score, ..., Q10_Score
+- Total_Score
+
+========================================
