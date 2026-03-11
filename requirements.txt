@@ -1,0 +1,8 @@
+pandas>=2.0.0
+openpyxl>=3.1.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+requests>=2.31.0
+# Pin NumPy to <2 to avoid binary incompatibility with extensions
+numpy>=1.24.0,<2

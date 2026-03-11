@@ -1,0 +1,64 @@
+========================================
+QUICK START GUIDE
+========================================
+
+STATUS: Almost Ready!
+----------------------
+✓ All core packages installed (pandas, openpyxl, PIL, scikit-image, requests, numpy)
+✗ Need to install: opencv-python
+
+STEP 1: Install opencv-python
+------------------------------
+Open PowerShell and run ONE of these:
+
+Option A (Recommended - No Admin needed):
+  pip install --user opencv-python
+
+Option B (If Option A doesn't work):
+  1. Right-click PowerShell → "Run as Administrator"
+  2. pip install opencv-python
+
+Option C (Using Anaconda):
+  conda install -c conda-forge opencv
+
+STEP 2: Verify Installation
+---------------------------
+Run: python test_installation.py
+
+You should see all packages marked as [OK]
+
+STEP 3: Prepare Your Files
+---------------------------
+1. Place reference images in this folder:
+   - image1.jpg (for question 1)
+   - image2.jpg (for question 2)
+   - ... up to image10.jpg
+
+2. Have your 10 Excel files from Google Forms ready
+
+STEP 4: Run the Software
+--------------------------
+Run: python evaluation_software.py
+
+Then follow the prompts:
+- Enter section number (1 or 2)
+- Provide path to each Excel file
+- Enter output filename (or press Enter)
+
+OUTPUT
+------
+Results will be saved as: results_section1.xlsx (or results_section2.xlsx)
+
+The file contains:
+- Team_Number (sorted 1-200 or 201-400)
+- Q1_Score through Q10_Score
+- Total_Score
+
+========================================
+NEED HELP?
+========================================
+- See HOW_TO_RUN.md for detailed instructions
+- See INSTALL_OPENCV.txt for opencv installation help
+- See README.md for full documentation
+
+========================================
